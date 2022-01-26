@@ -1,49 +1,62 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
-  font: 16px/1.5 sans-serif;
-  color: #333;
-  background-color: #fff;
+    font: 16px/1.5 sans-serif;
+    color: #333;
+    background-color: #fff;
 }
+
 li {
-  list-style: none;
+    list-style: none;
 }
+
 em,
 i {
-  font-style: normal;
+    font-style: normal;
 }
+
 a {
-  text-decoration: none;
-  color: #333;
+    text-decoration: none;
+    color: #333;
 }
+
 a:hover {
-  color: #5eb69c;
+    color: #5eb69c;
 }
+
 img {
-  width: 100%;
-  vertical-align: middle;
+    width: 100%;
+    vertical-align: middle;
 }
+
 input {
-  padding: 0;
-  border: none;
-  outline: none;
-  color: #333;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #333;
 }
+
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
+
+
 /* 清除浮动 */
+
 .clearfix:before,
 .clearfix:after {
-  content: '';
-  display: table;
+    content: '';
+    display: table;
 }
+
 .clearfix:after {
-  clear: both;
+    clear: both;
 }
+
 .clearfix {
-  *zoom: 1;
+    *zoom: 1;
 }
