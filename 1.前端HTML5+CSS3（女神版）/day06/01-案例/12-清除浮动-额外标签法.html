@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,32 +13,33 @@
             /* height: 300px; */
             background-color: pink;
         }
-
+        
         .bottom {
             height: 100px;
             background-color: green;
         }
-
+        
         .left {
             float: left;
             width: 200px;
             height: 300px;
             background-color: #ccc;
         }
-
+        
         .right {
             float: right;
             width: 790px;
             height: 300px;
             background-color: skyblue;
         }
-
+        
         .clearfix {
             /* 清除左右两侧浮动的影响 */
             clear: both;
         }
     </style>
 </head>
+
 <body>
     <!-- 父子级标签, 子级浮动, 父级没有高度, 后面的标准流盒子会受影响, 显示到上面的位置 -->
     <div class="top">
@@ -47,4 +49,5 @@
     </div>
     <div class="bottom"></div>
 </body>
+
 </html>

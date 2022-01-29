@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,7 @@
             /* 所有的标签都可能添加内边距或border, 都內减模式 */
             box-sizing: border-box;
         }
-
+        
         .news {
             width: 500px;
             height: 400px;
@@ -20,29 +21,28 @@
             margin: 50px auto;
             padding: 42px 30px 0;
         }
-
+        
         .news h2 {
             border-bottom: 1px solid #ccc;
             font-size: 30px;
-
             /* 行高是1倍, 就是字号的大小 */
             line-height: 1;
             padding-bottom: 9px;
         }
-
         /* 去掉列表的符号 */
+        
         ul {
             list-style: none;
         }
-
         /* li {} */
+        
         .news li {
             height: 50px;
             border-bottom: 1px dashed #ccc;
             padding-left: 28px;
             line-height: 50px;
         }
-
+        
         .news a {
             text-decoration: none;
             color: #666;
@@ -50,6 +50,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- 从外到内 -->
     <div class="news">
@@ -63,4 +64,5 @@
         </ul>
     </div>
 </body>
+
 </html>
